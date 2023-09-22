@@ -1,0 +1,125 @@
+.product---details{
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 200px;
+}
+
+.product---info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.product---totalcost{
+    display: flex;
+}
+
+.quantity{
+    display: flex;
+    flex-direction: row;
+}
+
+.add---to---cart{
+    color: white;
+    background-color: rgb(10, 162, 147);
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+.product---display {
+    height: 450px;
+    width: 750px;
+}
+
+.product---image{
+    height: 450px;
+    width: 750px;
+    object-fit: contain;
+}
+
+.product---desc{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product---price{ 
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.button---for---cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 100px;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.increment---qty{
+    color: white;
+    background-color: rgb(10, 162, 147);
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.decrement---qty{
+    color: white;
+    background-color: rgb(10, 162, 147);
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 20px;
+    margin-left: 30px;
+}
+
+.qty---counter{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+ @media (max-width: 768px) {
+    .product---details {
+      padding: 20px;
+      flex-direction: column;
+      column-gap: 0;
+    }
+  
+    .product---display {
+      width: 100%;
+    }
+  
+    .product---image {
+      width: 100%;
+      height: auto;
+    }
+  
+    .product---info {
+      margin-top: 20px;
+    }
+  
+    .product---price {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  
+    .quantity {
+      margin-top: 20px;
+    }
+  
+    .add---to---cart {
+      margin-top: 20px;
+    }
+  }
+  
